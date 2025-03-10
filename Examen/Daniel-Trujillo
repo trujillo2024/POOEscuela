@@ -87,7 +87,7 @@ a) Inicializar un repositorio Git en una carpeta existente:  <--- git init
 b) Agregar todos los archivos modificados y hacer un commit con el mensaje "Primer commit": <--- git add .git commit -m "Primer commit"
 
 
-c) Conectar un repositorio local a un repositorio remoto en GitHub: <---- git remote add origin <URL_del_repositorio_remoto>
+c) Conectar un repositorio local a un repositorio remoto en GitHub: <---- git remote add origin 
 
 
 d) Subir los cambios de la rama main a GitHub: <---- git push origin main
