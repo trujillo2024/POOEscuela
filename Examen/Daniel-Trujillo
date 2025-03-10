@@ -1,1 +1,98 @@
 
+Instrucciones:
+Muy bien, chicos, este es su examen del segundo parcial. Sigan estos pasos cuidadosamente:
+
+Copien todo el contenido de este documento.
+En la carpeta de examen, creen una subcarpeta con su nombre.
+Dentro de su carpeta, generen un archivo con el siguiente nombre:
+examen-[su-nombre]-parcial-02.txt
+Peguen el contenido de este documento en ese archivo.
+Nota: Este archivo se encuentra en la rama main. Deberán cambiar a la rama con su nombre. Si aún no tienen una rama con su nombre, créenla antes de continuar.
+
+Cómo responder el examen:
+Seccion 1:
+Para seleccionar una respuesta, marquen una flecha (<---) en el inciso que consideren correcto. Ejemplo:
+
+1. ¿Este es un ejemplo de una pregunta en su examen?
+a) Posible respuesta
+b) Posible respuesta
+c) Posible respuesta <--- (Esta es la opción seleccionada)
+d) Posible respuesta
+
+Seccion 2: 
+Solo indicar la leta V o F. Ejemplo:
+1. para crear una copia de git utilizamos git fork (V/F): V
+
+Seccion 3:
+agregar los comandos debajo de el inciso. Ejemplo:
+a) realiza un cambio de una rama sobre la otra
+git checkout feature
+git rebase main
+
+Entrega del examen:
+Una vez que hayan terminado:
+
+Guarden los cambios.
+Hagan un commit con los cambios realizados.
+Envíen el archivo al repositorio en GitHub.
+
+
+Sección 1: Preguntas de opción múltiple
+1. ¿Cuál es el comando para clonar un repositorio desde GitHub?
+a) git copy <URL>
+b) git clone <URL> <----
+c) git fork <URL>
+d) git pull <URL>
+
+2. ¿Qué comando se usa para ver el estado de los archivos en Git?
+a) git check
+b) git status <-----
+c) git log
+d) git diff
+
+3. ¿Cuál es el comando para añadir archivos al área de preparación (staging area)?
+a) git stage <archivo>
+b) git commit <archivo>
+c) git add <archivo> <-----
+d) git push <archivo>
+
+4. ¿Cuál es el comando para confirmar (commit) cambios en Git?
+a) git push
+b) git commit -m "mensaje" <-----
+c) git save -m "mensaje"
+d) git send "mensaje"
+
+5. ¿Qué comando se usa para enviar los cambios al repositorio remoto?
+a) git push origin <rama>  <-----
+b) git send <rama>
+c) git upload <rama>
+d) git commit <rama>
+
+Sección 2: Verdadero o Falso
+6. git pull descarga cambios del repositorio remoto y los fusiona automáticamente en la rama actual. (V/F):
+
+7. git fetch es lo mismo que git pull. (V/F):  <---F
+
+8. Si haces git push sin haber hecho git add y git commit, tus cambios locales se subirán automáticamente. (V/F): <---F
+
+9. Un archivo en estado "untracked" significa que ya está en la base de datos de Git. (V/F): <----F
+
+
+Sección 3: Comandos y escenarios
+10. Escribe los comandos para hacer lo siguiente:
+
+a) Inicializar un repositorio Git en una carpeta existente:  <--- git init
+
+
+b) Agregar todos los archivos modificados y hacer un commit con el mensaje "Primer commit": <--- git add .git commit -m "Primer commit"
+
+
+c) Conectar un repositorio local a un repositorio remoto en GitHub: <---- git remote add origin <URL_del_repositorio_remoto>
+
+
+d) Subir los cambios de la rama main a GitHub: <---- git push origin main
+
+
+e) Descargar cambios de la rama main desde GitHub y fusionarlos con tu código local:  <----- git pull origin main
+
+
